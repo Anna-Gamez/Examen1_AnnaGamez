@@ -1,0 +1,44 @@
+
+.indice{
+    width: 800px;
+    margin: auto;
+    font-size: larger;
+    background-color:rgb(23, 0, 126);
+}
+
+th{
+    background-color: rgb(97, 169, 200);
+    border: 1px solid rgb(23, 0, 126);
+}
+
+.producto{
+    background-color: rgb(23, 0, 126);
+}
+
+.form{
+    width: 550px;
+    padding: 30px;
+    background-color: rgb(131, 168, 167);
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 7px solid rgb(23, 0, 126);
+    block-size: 100px;
+}
+
+.datos{
+    margin-left: 30px;
+    margin-right: 300px;
+    color: rgb(23, 0, 126);
+    block-size: 0px;
+}
+
+.boton{
+    color: rgb(23, 0, 126);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-right: 100px;
+    block-size: 20px;
+}

@@ -4,24 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
+    <link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
-<section class="indice">
-    <a href="./inicio.html">Inicio</a>
-    <a href="./conocenos.html">Conocenos</a>
-    <a href="./productos.html">Productos</a>
-    <a href="./registro.html">Registro</a>
-    <a href="./contacto.html">Contacto</a>
-</section>
+
+<table class="indice">
+    <tr>
+    <th><a href="./inicio.html">Inicio</a></th>
+    <th><a href="./conocenos.html">Conocenos</a></th>
+    <th class="producto"><a href="./productos.html">Productos</a></th>
+    <th><a href="./registro.html">Registro</a></th>
+    <th><a href="./contacto.html">Contacto</a></th>
+    </tr>
+</table>
+
 
 <section class="form">
-<label for="web">Web:</label>
-<input type="text" name="web" id="web">
-<label for="nom">Nombre:</label>
-<input type="text" name="nom" id="nom">
-<label for="ap">Apellido:</label>
-<input type="text" name="ap" id="ap">
-<input type="button" value="Buscar">
+
+    <section class="datos">
+        <label for="web">Web:</label>
+        <input type="text" name="web" id="web" placeholder="https://accounts.google.com/SingUp">
+    <br><br>
+        <label for="nom">Nombre:</label>
+        <input type="text" name="nom" id="nom" placeholder="Juan">
+    <br><br>
+        <label for="ap">Apellido:</label>
+        <input type="text" name="ap" id="ap" placeholder="Pablo">
+    </section>
+
+    <section class="boton">
+        Buscar
+    </section>
+
 </section>
 
 </body>
